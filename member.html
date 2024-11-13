@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Service unit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="member.css">
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 8px;
+          text-align: left;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="unitlogo">
+                <img src="image/unitlogo.png" alt="unit_logo" width="100px">
+            </div>
+            <h2 class="unitname">Sherubtse Social Service Unit</h2>
+            <div class="navbar">
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="member.html">Member</a></li>
+                        <li><a href="workplan.html">Work Plan</a></li>
+                        <li><a href="Achievement.html">Achievement</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger">
+                </button>
+            </div>   
+        </div>   
+            
+    </header>
+    <article>
+        <section class="fee-structure">
+            <h2>Fee Structure</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Membership Type</th>
+                        <th>Fee (Nu)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>First Year Member</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Second Year Member</td>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <td>Third Year Member</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Fourth Year Member</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Regular Member</td>
+                        <td>150</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="note">
+                <h3>Note:</h3>
+                <p>If a member pays the membership fee in the first year but misses payment in the second year, they must re-register as a new member in the third year by paying Nu.300.</p>
+            </div>
+        </section>
+        
+        <section class="active-member-criteria">
+            <h2>Active Member Certificate Criteria</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Criteria</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Attendance Requirement</td>
+                        <td>Members must have at least 60% attendance.</td>
+                    </tr>
+                    <tr>
+                        <td>Certificate Award</td>
+                        <td>15 active members will receive the certificate.</td>
+                    </tr>
+                    <tr>
+                        <td>Tie Criteria</td>
+                        <td>If attendance and nature of work are tied, the number of recipients may increase to 20.</td>
+                    </tr>
+                    <tr>
+                        <td>Executive Recommendation</td>
+                        <td>If more than 20 members are eligible, unit executives will recommend based on volunteer activeness.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <div class="search-detail">
+            <h1>Search Student Details</h1>
+            <label for="search">Enter Student Number:</label>
+            <input type="text" id="search" placeholder="Student No">
+            <button onclick="searchStudent()">Search</button>
+        
+            <h2>Student Details</h2>
+            <table id="studentTable" style="display:none;">
+                <tr><th>Name</th><td id="name"></td></tr>
+                <tr><th>Student No</th><td id="student_no"></td></tr>
+                <tr><th>CID</th><td id="cid"></td></tr>
+                <tr><th>Phone No</th><td id="phone_no"></td></tr>
+                <tr><th>Program</th><td id="program"></td></tr>
+                <tr><th>Year</th><td id="year"></td></tr>
+                <tr><th>Batch</th><td id="batch"></td></tr>
+            </table>
+        
+            <p id="noResult" style="color: red; display:none;">No student found with the entered Student No</p>
+        </div>
+        </section>
+        
+      
+        <section class="membership-registration">
+            <h2 class="re">Register as a member of SSU</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="image/regestration.png" class="card-img-top" alt="Registration">
+                    <div class="card-body">
+                        <h5 class="card-title">Member Registration</h5>
+                        <p class="card-text">Interested students can apply now.</p>
+                        <a href="form.html" class="btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Sherubtse College, Kanglung, Trashigang, Bhutan</p>
+                <p><i class="fas fa-phone"></i> +975 17123456</p>
+                <p><i class="fas fa-envelope"></i> ssu@sherubtse.edu.bt</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="member.html">Members</a></li>
+                    <li><a href="workplan.html">Work Plan</a></li>
+                    <li><a href="Achievement.html">Achievements</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Sherubtse Social Service Unit. All rights reserved.</p>
+        </div>
+    </footer>
+    
+     
+
+    <script>
+        let students = [];
+
+    // Load the JSON data
+        fetch('member.json')
+        .then(response => response.json())
+        .then(data => students = data)
+        .catch(error => console.error('Error loading student data:', error));
+
+        function searchStudent() {
+            const searchValue = document.getElementById('search').value.trim();
+            const student = students.find(s => s.student_no === searchValue || s.cid === searchValue);
+      
+        if (student) {
+            document.getElementById('studentTable').style.display = 'table';
+            document.getElementById('noResult').style.display = 'none';
+            document.getElementById('name').innerText = student.name;
+            document.getElementById('student_no').innerText = student.student_no;
+            document.getElementById('cid').innerText = student.cid;
+            document.getElementById('phone_no').innerText = student.phone_no;
+            document.getElementById('program').innerText = student.program;
+            document.getElementById('year').innerText = student.year;
+            document.getElementById('batch').innerText = student.batch;
+      } else {
+            document.getElementById('studentTable').style.display = 'none';
+            document.getElementById('noResult').style.display = 'block';
+      }
+    }
+    </script>
+
+    <script src="script.js" defer></script>
+    
+   
+</body>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+    />
+    <style>
+      * {
+        font-family: "Oswald", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: 0.2s linear;
+      }
+      body {
+        padding: 40px;
+        background-color: rgb(34, 33, 33);
+        color: #fff;
+      }
+      .container {
+        max-width: 600px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: #222;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+      hr {
+        border: none;
+        border-top: 5px solid #2980b9;
+        margin-bottom: 2rem;
+      }
+      .form-group {
+        margin-bottom: 20px;
+        position: relative;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid rgb(34, 33, 33);
+        border-radius: 5px;
+      }
+      small {
+        color: #ff7f18;
+      }
+      .eye-icon {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+      .eye-icon i {
+        font-size: 16px;
+        color: #191010;
+      }
+      @media (max-width: 768px) {
+        .container {
+          padding: 20px;
+        }
+        input,
+        select {
+          padding: 8px;
+        }
+      }
+      @media (max-width: 480px) {
+        body {
+          padding: 20px;
+        }
+        h1 {
+          font-size: 1.5rem;
+        }
+        .container {
+          padding: 15px;
+        }
+        input,
+        select {
+          padding: 6px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color: #2980b9">
+        <span style="color: #2980b9">Register</span> Now
+      </h1>
+      <hr />
+      <form>
+        <div class="form-group">
+          <label for="firstName" class="visually-hidden">First Name</label>
+          <input
+            type="text"
+            id="firstName"
+            class="form-control"
+            placeholder="First Name"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="lastName" class="visually-hidden">Last Name</label>
+          <input
+            type="text"
+            id="lastName"
+            class="form-control"
+            placeholder="Last Name"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="studentId" class="visually-hidden">Student ID</label>
+          <input
+            type="text"
+            id="studentId"
+            class="form-control"
+            placeholder="Student ID (e.g., 07123456)"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="year" class="visually-hidden">Year</label>
+          <select class="form-select" id="year" autocomplete="off">
+            <option value="">Select Year</option>
+            <option value="1">Year 1</option>
+            <option value="2">Year 2</option>
+            <option value="3">Year 3</option>
+            <option value="4">Year 4</option>
+          </select>
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="course" class="visually-hidden">Course</label>
+          <input
+            type="text"
+            id="course"
+            class="form-control"
+            placeholder="Course"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="email" class="visually-hidden">Email</label>
+          <input
+            type="text"
+            id="email_id"
+            class="form-control"
+            placeholder="id.sherubtse@rub.edu.bt"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="newPassword" class="visually-hidden">Password</label>
+          <input
+            type="password"
+            id="newPassword"
+            class="form-control"
+            placeholder="Password"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword" class="visually-hidden">Confirm Password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            class="form-control"
+            placeholder="Confirm Password"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+        <input
+          id="signupbtn"
+          type="submit"
+          class="btn btn-success w-100"
+          value="Register"
+        />
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      const newPasswd = document.querySelector("#newPassword");
+      const confirmPasswd = document.querySelector("#confirmPassword");
+      const email = document.querySelector("#email_id");
+      const fname = document.querySelector("#firstName");
+      const lname = document.querySelector("#lastName");
+      const studentId = document.querySelector("#studentId");
+      const year = document.querySelector("#year");
+      const course = document.querySelector("#course");
+      const form = document.querySelector("form");
+
+      const showError = (input, message) => {
+        const formField = input.parentElement;
+        const error = formField.querySelector("small");
+        error.innerText = message;
+        input.style.borderColor = "Red";
+      };
+
+      const showSuccess = (input) => {
+        const formField = input.parentElement;
+        const error = formField.querySelector("small");
+        error.innerText = "";
+        input.style.borderColor = "#888888";
+      };
+
+      const isRequired = (value) => value === "";
+      const isPasswordLengthValid = (password) => password.length >= 8;
+      const isPasswordContainingLowerCase = (password) => /[a-z]/.test(password);
+      const isPasswordContainingUpperCase = (password) => /[A-Z]/.test(password);
+      const isPasswordContainingNumber = (password) => /[0-9]/.test(password);
+      const isPasswordContainingSpecialCharacter = (password) => /[!@#$%^&*]/.test(password);
+
+      const NewPassword = () => {
+        let valid = true;
+        const password = newPasswd.value.trim();
+        if (isRequired(password)) {
+          showError(newPasswd, "Password cannot be blank.");
+          valid = false;
+        } else if (!isPasswordLengthValid(password)) {
+          showError(newPasswd, "Password must be at least 8 characters long.");
+          valid = false;
+        } else if (!isPasswordContainingLowerCase(password)) {
+          showError(newPasswd, "Password must contain at least one lowercase letter.");
+          valid = false;
+        } else if (!isPasswordContainingUpperCase(password)) {
+          showError(newPasswd, "Password must contain at least one uppercase letter.");
+          valid = false;
+        } else if (!isPasswordContainingNumber(password)) {
+          showError(newPasswd, "Password must contain at least one number.");
+          valid = false;
+        } else if (!isPasswordContainingSpecialCharacter(password)) {
+          showError(newPasswd, "Password must contain at least one special character.");
+          valid = false;
+        }
+        if (valid) showSuccess(newPasswd);
+        return valid;
+      };
+
+      const checkConfirmPassword = () => {
+        let valid = false;
+        const confirmPassword = confirmPasswd.value.trim();
+        const password = newPasswd.value.trim();
+        if (isRequired(confirmPassword)) {
+          showError(confirmPasswd, "Please enter the password again.");
+        } else if (password !== confirmPassword) {
+          showError(confirmPasswd, "Passwords do not match.");
+        } else {
+          showSuccess(confirmPasswd);
+          valid = true;
+        }
+        return valid;
+      };
+
+      const checkEmail = () => {
+        let valid = false;
+        const emailValue = email.value.trim();
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@rub\.edu\.bt$/;
+        if (isRequired(emailValue)) {
+          showError(email, "Email cannot be blank.");
+        } else if (!emailRegex.test(emailValue)) {
+          showError(email, "Email must be in the format id.sherubtse@rub.edu.bt");
+        } else {
+          showSuccess(email);
+          valid = true;
+        }
+        return valid;
+      };
+
+      const checkRequiredFields = () => {
+        let valid = true;
+        const fields = [fname, lname, studentId, year, course];
+        fields.forEach((field) => {
+          if (isRequired(field.value.trim())) {
+            showError(field, `${field.placeholder} cannot be blank.`);
+            valid = false;
+          } else {
+            showSuccess(field);
+          }
+        });
+        return valid;
+      };
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const isFormValid =
+          checkRequiredFields() &&
+          checkEmail() &&
+          NewPassword() &&
+          checkConfirmPassword();
+
+        if (isFormValid) {
+          alert("You have successfully signed up as a new member of SSU");
+          form.reset();
+        }
+      });
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,308 @@
+[
+    {
+      "name": "Lungten Zangmo",
+      "student_no": "07230018",
+      "cid": "11514004945",
+      "phone_no": "17360401",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Manita Gurung",
+      "student_no": "07230036",
+      "cid": "10307000604",
+      "phone_no": "77812851",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Pema Wangdi",
+      "student_no": "07230038",
+      "cid": "10403001004",
+      "phone_no": "17965912",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Pema Wangdi",
+      "student_no": "7230074",
+      "cid": "11603002817",
+      "phone_no": "77765619",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2024"
+    },
+    {
+      "name": "Ranjana Sunwar",
+      "student_no": "07230040",
+      "cid": "11802003131",
+      "phone_no": "17450301",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Sangay Tshomo",
+      "student_no": "07230059",
+      "cid": "10902000105",
+      "phone_no": "77726942",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Sangay Wangmo",
+      "student_no": "07230042",
+      "cid": "10705005569",
+      "phone_no": "17668467",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2024"
+    },
+    {
+      "name": "Sonam Chophel",
+      "student_no": "07230061",
+      "cid": "11502003726",
+      "phone_no": "17722386",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Sonam Yangchen",
+      "student_no": "07230064",
+      "cid": "11105001256",
+      "phone_no": "17301496",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Tara Maya Limbu",
+      "student_no": "07230078",
+      "cid": "11209002673",
+      "phone_no": "17825082",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2024"
+    },
+    {
+      "name": "Tashi Pelden",
+      "student_no": "07230022",
+      "cid": "10904003698",
+      "phone_no": "77810659",
+      "program": "DSDA",
+      "year": "2"
+    },
+    {
+      "name": "Tshering Om",
+      "student_no": "07230082",
+      "cid": "11905001720",
+      "phone_no": "17468810",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Tshering Pemo",
+      "student_no": "07230083",
+      "cid": "10903002953",
+      "phone_no": "77895366",
+      "program": "DSDA",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Kinga Zangmo",
+      "student_no": "07230015",
+      "cid": "10905001070",
+      "phone_no": "17929579",
+      "program": "EPS",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Reena Rai",
+      "student_no": "07230057",
+      "cid": "10301001323",
+      "phone_no": "77788948",
+      "program": "EPS",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Tandin Tshering",
+      "student_no": "07230045",
+      "cid": "11005003625",
+      "phone_no": "77743329",
+      "program": "EPS",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Tashi Wangdi",
+      "student_no": "07230067",
+      "cid": "11109001208",
+      "phone_no": "17918117",
+      "program": "EPS",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Ugyen Wangmo",
+      "student_no": "07230088",
+      "cid": "11508004640",
+      "phone_no": "77478766",
+      "program": "EPS",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Dechen Pelden",
+      "student_no": "07230122",
+      "cid": "10801003101",
+      "phone_no": "77720104",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Dorji Wangmo",
+      "student_no": "07230125",
+      "cid": "11510004385",
+      "phone_no": "17928856",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Jampel Zangmo",
+      "student_no": "07230126",
+      "cid": "11214002165",
+      "phone_no": "17672011",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Kencho Zangmo",
+      "student_no": "07230129",
+      "cid": "10904001781",
+      "phone_no": "17984692",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Monita Gurung",
+      "student_no": "07230133",
+      "cid": "10314000417",
+      "phone_no": "77812851",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Pema Dema",
+      "student_no": "07230137",
+      "cid": "11401002406",
+      "phone_no": "77291574",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Pema Selden",
+      "student_no": "07230138",
+      "cid": "11515004215",
+      "phone_no": "17742652",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Priya Ghalley",
+      "student_no": "07230139",
+      "cid": "11204003593",
+      "phone_no": "77769983",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Resham Subba",
+      "student_no": "07230140",
+      "cid": "10301001749",
+      "phone_no": "17491389",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Rinchen Wangmo",
+      "student_no": "07230141",
+      "cid": "11914002254",
+      "phone_no": "17775155",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Sonam Choden",
+      "student_no": "07230142",
+      "cid": "11514005279",
+      "phone_no": "77327528",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+      "name": "Sonam Yangchen",
+      "student_no": "07230143",
+      "cid": "11501003507",
+      "phone_no": "17233688",
+      "program": "Life science",
+      "year": "2",
+      "batch": "2023"
+    },
+    {
+        "name": "Cheki Dorji",
+        "student_no": "07230004",
+        "cid": "11102007708",
+        "phone_no": "17977533",
+        "program": "DSDA",
+        "year": "2",
+        "batch": "2023"
+      },
+      {
+        "name": "Chimi Lham",
+        "student_no": "",
+        "cid": "",
+        "phone_no": "",
+        "program": "DSDA",
+        "year": "2",
+        "batch": ""
+      },
+      {
+        "name": "Galey Mo",
+        "student_no": "07230011",
+        "cid": "11913001568",
+        "phone_no": "17552368",
+        "program": "DSDA",
+        "year": "2",
+        "batch": "2023"
+      },
+      {
+        "name": "Gyembo Wangchuk",
+        "student_no": "07230028",
+        "cid": "10713003234",
+        "phone_no": "17897749",
+        "program": "DSDA",
+        "year": "2",
+        "batch": "2023"
+      }
+    ]
+  

@@ -1,0 +1,104 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+article {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-size: 25px;
+}
+
+/* Achievement styles */
+.achievement {
+    background-color: #ecf0f1;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.achievement:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.achievement h2 {
+    color: #3498db;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* Button styles */
+.toggle-details {
+    display: flex;
+    justify-self: center;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    margin-top: 1rem;
+
+}
+
+.toggle-details:hover {
+    background-color: #2980b9;
+}
+
+/* Details styles */
+.details {
+    display: none;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    justify-content: center;
+}
+
+.achievement-image {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.details p {
+    margin-bottom: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    article {
+        padding: 0.5rem;
+    }
+
+    .achievement {
+        padding: 0.5rem;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    .achievement h2 {
+        font-size: 1em;
+    }
+}

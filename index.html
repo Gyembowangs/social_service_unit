@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Service unit</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        #hero {
+            background: linear-gradient(to right, #007bff, #0056b3);
+        }
+        .btn-primary {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+        .btn-primary:hover {
+            background-color: #004085;
+            border-color: #003057;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="unitlogo">
+                <img src="image/unitlogo.png" alt="unit_logo" width="100px">
+            </div>
+            <h2 class="unitname">Sherubtse Social Service Unit</h2>
+            <div class="navbar">
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="member.html">Member</a></li>
+                        <li><a href="workplan.html">Work Plan</a></li>
+                        <li><a href="Achievement.html">Achievement</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger">
+                </button>
+            </div>  
+        </div>          
+    </header>
+    <article>
+        <main class="container mt-5">
+            <section id="hero" class="jumbotron text-center text-white py-5 mb-5">
+                <h1 class="display-4">Welcome to Sherubtse Social Service Unit</h1>
+                <p class="lead">"Small acts, when multiplied by millions of people, can transform the world."</p>
+            </section>
+    
+            <section id="quick-links" class="mb-5">
+                <h2 class="text-center mb-4">Explore SSU</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100">
+                            <img src="image/best-unit.jpg" class="card-img-top" alt="About Us" height="300px">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">About Us</h3>
+                                <p class="card-text">Learn about our mission, vision and values.</p>
+                                <a href="About.html" class="btn btn-primary mt-auto">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100">
+                            <img src="image/whitewashing.jpg" class="card-img-top" alt="Workplan" height="300px">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Workplan</h3>
+                                <p class="card-text">Explore Our workplan for the academic year 2023-2024</p>
+                                <a href="workplan.html" class="btn btn-primary mt-auto">Discover</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100">
+                            <img src="image/unit.jpg" class="card-img-top" alt="Achievement" height="300px">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Achievement</h3>
+                                <p class="card-text">Explore what our unit has achieved successfully</p>
+                                <a href="Achievement.html" class="btn btn-primary mt-auto">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100">
+                            <img src="image/ssv.jpg" class="card-img-top" alt="Unit Activity Report" height="300px">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Unit Activity Report</h3>
+                                <p class="card-text">View detailed report of your unit activities</p>
+                                <a href="journal.html" class="btn btn-primary mt-auto">Read Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="members-gallery" class="mb-5">
+                <h2 class="text-center mb-4">Members and Gallery</h2>
+                <div class="row" id="newsContainer">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-80">
+                            <img src="image/image7.jpg" class="card-img-top" alt="Member">
+                        <div class="card-body">
+                            <h5 class="card-title">Member</h5>
+                            <p class="card-text">Details of our member.</p>
+                            <a href="member.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="image/gallery.jpeg" class="card-img-top" alt="Gallery">
+                        <div class="card-body">
+                            <h5 class="card-title">Gallery</h5>
+                            <p class="card-text">Collection of photos of our members working hard.</p>
+                            <a href="gallery.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="membership-registration" class="mb-3">
+            <h2 class="text-center mb-4">Membership Registration</h2>
+            <div class="d-flex justify-content-center">
+                <div class="col-md-4 mb-4"> <!-- Changed from col-md-6 to col-md-4 for smaller size -->
+                    <div class="card h-100">
+                        <img src="image/regestration.png" class="card-img-top" alt="Registration">
+                        <div class="card-body text-center"> <!-- Centered text within the card -->
+                            <h5 class="card-title">Member Registration</h5>
+                            <p class="card-text">Interested students can apply now.</p>
+                            <a href="form.html" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</article>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Sherubtse College, Kanglung, Trashigang, Bhutan</p>
+                <p><i class="fas fa-phone"></i> +975 17123456</p>
+                <p><i class="fas fa-envelope"></i> ssu@sherubtse.edu.bt</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="member.html">Members</a></li>
+                    <li><a href="workplan.html">Work Plan</a></li>
+                    <li><a href="Achievement.html">Achievements</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Sherubtse Social Service Unit. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+    });
+    </script>
+    
+   
+</body>
+</html>
